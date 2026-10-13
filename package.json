@@ -1,0 +1,11 @@
+{
+  "name": "real-estate-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal full-stack real estate starter (React + Vite, Express, MongoDB, Leaflet)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  }
+}

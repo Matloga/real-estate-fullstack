@@ -1,0 +1,5 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;line-height:1.6}
+.property-card{border:1px solid #ddd;padding:20px;border-radius:10px;margin-bottom:20px}
+img{width:100%;border-radius:8px}
+@media(max-width:768px){.property-card{width:100%}}
